@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+
+body {
+    margin: 0 15px 20px 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.about {
+    display: flex;
+    margin-top: 120px;
+}
+
+.img1 {
+    margin-top: 30px;
+    width: 350px;
+    height: 510px;
+}
+
+.item1 {
+    width: 35%;
+    padding: 20px;
+}
+
+.item1 h1 {
+    color: rgb(121, 116, 116);
+}
+
+ul {
+    color: rgb(121, 116, 116);
+    font-weight: 600;
+}
+
+
+.img2 {
+    margin-left: 60%;
+    width: 290px;
+    height: 400px;
+}
+
+
+.box {
+    display: flex;
+    margin: 10px 20px 50px 20px;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+.box img {
+    width: 35px;
+    height: 35px;
+}
+
+.box .logo {
+    width: 37px;
+    height: 34px;
+}
+
+.what {
+    font-weight: 900;
+    font-size: 3em;
+    margin-top: 130px;
+    padding: 20px;
+}
+
+.box-1 {
+    /* border: 1px solid gray; */
+    width: 30%;
+    height: auto;
+    margin: 1%;
+    padding: 20px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    text-align: left;
+    text-align: justify;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    background-color: rgb(241, 237, 237);
+    border-radius: 10px;
+}
+
+.box-1:hover {
+    background-color: white;
+    transform: scale(1.01);
+    transition: 2s;
+}
+
+.box-1 p {
+    font-weight: 600;
+    color: rgb(121, 116, 116);
+    font-size: 1em;
+    text-align: justify;
+}
+
+.box-1 h2 {
+    font-weight: 900;
+    font-size: 2.8em;
+}
+
+.about-me {
+    margin: 30px 0 0 350px;
+}
+
+.about-me h4 {
+    font-weight: 900;
+    font-size: 2em;
+}
+
+.about-me p {
+    font-size: 1em;
+    font-weight: 600;
+    width: 85%;
+    color: rgb(121, 116, 116);
+    text-align: justify;
+}
+
+.paragraph {
+    color: rgb(121, 116, 116);
+    font-size: 1em;
+    font-weight: 600;
+    padding: 40px;
+    padding-left: 20px;
+}
